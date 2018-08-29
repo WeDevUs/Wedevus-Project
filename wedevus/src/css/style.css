@@ -1,0 +1,48 @@
+.bgimg {
+    background: url("../src/img/540341.jpg") no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 0.5s ease-out;
+}
+#holder{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.rollover{
+    position: absolute;
+    z-index: 200;
+    width: 12.86%;
+    height: 16.6%;
+    padding: 5px;
+    border: 3px solid #ffffff;
+    color:#ffffff;
+    transition: all 0.5s ease-out;
+
+}
+.rollover:hover {
+    background-color: white;
+    color: black;
+}
+
+.rollover:hover + .bgimg {
+    transform: scale(1.15 , 1.15);
+}
+.r1{
+    top: 10%;
+    left: 10%;
+}
+.r2{
+    top: 10%;
+    left: 75%;
+}
+.r3{
+    top: 10%;
+    left: 30%;
+}
+.r4{
+    top: 10%;
+    left: 55%;
+}
+
