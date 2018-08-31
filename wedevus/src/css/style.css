@@ -1,15 +1,98 @@
-main{animation: clr 5s infinite;}
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
 
-@keyframes clr{
-    0%{background-color: yellow;}
-    10%{background-color: orange;}
+.devider{
+    position: relative;
+    width: 100%;
+    height: 5%;
+    display: block;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
 
-    30%{background-color: red;}
-
-    50%{background-color: purple;}
-
-    70%{background-color: blue;}
-    85%{background-color: green;}
-
-    100%{background-color: yellow;}
 }
+.block{
+    width: 100%;
+    height: 900px;
+    background-color: #ff3333;
+    display: compact;
+    position: relative;
+    border: none;
+
+
+}
+.ddown{
+    transform: rotate(180deg);
+}
+
+.btns
+{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ff3333;
+    border-width: 3px;
+    text-align: center !important;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 100px !important;
+    color: #ff3333 !important;
+    display: inline-block !important;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+#titre{
+    position: absolute;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    transform: rotate(-11.3deg);
+    pointer-events: none;
+
+
+
+}
+.point-fort{
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.points-fort{
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    border: solid white 3px;
+    margin: 35px;
+    width: 30%;
+
+    box-shadow: gray 1px 1px 15px;
+}
+.picon{
+    font-size: 5em !important;
+}
+.points-fort.small{
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    border: solid white 3px;
+    margin: 35px;
+    max-height: 300px;
+    max-width: 15%;
+    box-shadow: gray 1px 1px 15px;
+}
+
+
