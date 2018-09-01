@@ -38,6 +38,17 @@ ul{
     height: 100% !important;
 
 }
+.loader{
+    background: url('../media/img/2.gif')50% 50% no-repeat #ffffff;
+    position : fixed;
+    z-index: 9999;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+
+}
 a.nav-content{
     color: #ff3333 !important;
     display: inline-block !important;
