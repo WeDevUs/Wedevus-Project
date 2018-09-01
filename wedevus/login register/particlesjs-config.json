@@ -1,34 +1,20 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
-particlesJS('particles-js',
-  {
+{
   "particles": {
     "number": {
-      "value": 150,
+      "value": 185,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#202020"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#202020"
+        "color": "#000000"
       },
       "polygon": {
         "nb_sides": 5
@@ -62,13 +48,13 @@ particlesJS('particles-js',
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#202020",
-      "opacity": 0.8,
+      "color": "#ffffff",
+      "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 11.668319678621144,
       "direction": "top-right",
       "random": true,
       "straight": false,
@@ -89,7 +75,7 @@ particlesJS('particles-js',
         "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
@@ -122,5 +108,3 @@ particlesJS('particles-js',
   },
   "retina_detect": true
 }
-
-);
