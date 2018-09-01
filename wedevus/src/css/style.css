@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .devider{
     position: relative;
@@ -16,13 +17,16 @@
 }
 .block{
     width: 100%;
-    height: 900px;
+    height: 700px;
     background-color: #ff3333;
     display: compact;
     position: relative;
     border: none;
 
 
+}
+.partenaire{
+    background-color: #ffffff!important;
 }
 .ddown{
     transform: rotate(180deg);
@@ -46,7 +50,7 @@
 
 }
 
-#titre{
+.titre{
     position: absolute;
     color: white;
     font-family: 'Karla', sans-serif;
@@ -103,8 +107,24 @@
     background-repeat: no-repeat;
     position: absolute;
 }
+.pt{
+    margin-top: -140px;
+    margin-left: 500px;
+}
 canvas{
     display:block;
     vertical-align:bottom;
+}
+.profil-partenaire{
+    margin: 60px;
+    max-width: 50%;
+    max-height: 50%;
+}
+.profil-box{
+    height: 100%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+
 }
 

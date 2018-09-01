@@ -1,20 +1,16 @@
-html , body{
-    width: 100%;
-    height: 100%;
+html {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+
+
 }
-body{
-    overflow-y: scroll;
-}
+
 header{
     margin: 0;
     padding: 0;
 }
 main{
-    width: 100%;
-    height: 100%;
     background: rgba(0,0,0,0);
 }
 
@@ -61,7 +57,7 @@ li{
     width: 10%;
     height: 100%;
 }
-@media screen and (min-width: 1600px) and (max-width: 2000px){
+@media screen and (min-width: 1600px) and (max-width: 9000px){
     a.nav-content{
         font-size: 1.7em !important;
 
@@ -70,7 +66,7 @@ li{
         font-size: 1.7em !important;
     }
 
-    #titre{
+    .titre{
         font-size: 3.5em;
         margin-top: -140px;
         margin-left: 150px;
@@ -78,13 +74,11 @@ li{
     .point-fort{
         font-size: 3em;
     }
-    i.material-icons.icb{
-        font-size: 1.6em !important;
-    }
+
    }
 
 
-@media screen and (min-width: 1300px) and (max-width: 1599px){
+@media screen and (min-width: 1239px) and (max-width: 1599px){
     a.nav-content{
         font-size: 1.2em !important;
 
@@ -93,7 +87,7 @@ li{
         font-size: 1.2em !important;
     }
 
-    #titre{
+    .titre{
         font-size: 2.7em;
         margin-top: -140px;
         margin-left: 140px;
@@ -105,16 +99,16 @@ li{
         font-size: 1.1em !important;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1299px){
+@media screen and (min-width: 600px) and (max-width: 1238px){
     a.nav-content{
-        font-size: 0.7em !important;
+        font-size: 1em !important;
 
     }
     a.btns{
-        font-size: 0.7em !important;
+        font-size: 1em !important;
     }
 
-    #titre{
+    .titre{
         font-size: 2em;
         margin-top: -90px;
         margin-left: 125px;
@@ -124,8 +118,21 @@ li{
         font-size: 1em;
     }
     i.material-icons.icb{
-        font-size: 0.6em !important;
+        font-size: 0.9em !important;
     }
+    .points-fort{
+        font-size: 1em !important;
+    }
+    .points-fort.small{
+        font-size: 0.5em !important;
+        max-height: 150px !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:1250px) {
+    li{
+        width: unset;
+    }
+
 }
 .material-icons{
     user-select: none;
@@ -135,4 +142,11 @@ li{
     -webkit-user-select: none;
     -ms-user-select: none;
 
+}
+.navbar-toggler-icon{
+    color: #2e3133 !important;
+    display: block;
+}
+.grey{
+    color: #2e3133 !important;
 }
