@@ -14,7 +14,14 @@ main{
     background: rgba(0,0,0,0);
 }
 
-
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
 
 nav, li, header, ul{
     background: rgba(0,0,0,0) !important;
@@ -149,4 +156,7 @@ li{
 }
 .grey{
     color: #2e3133 !important;
+}
+.grey-bg{
+    background-color: #5b5b5b !important;
 }

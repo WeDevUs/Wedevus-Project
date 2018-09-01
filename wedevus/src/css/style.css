@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .devider{
     position: relative;
@@ -17,7 +20,6 @@
 }
 .block{
     width: 100%;
-    height: 700px;
     background-color: #ff3333;
     display: compact;
     position: relative;
@@ -121,10 +123,39 @@ canvas{
     max-height: 50%;
 }
 .profil-box{
-    height: 100%;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 1.5em;
 
 }
+#copyright{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.7em;
+    margin: 15px;
+
+}
+#wedevus{
+    color: white;
+    margin-left: 5px;
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+
+}
+.top-arrow{
+    position: absolute!important;
+    color: white;
+    float: right !important;
+    margin-left: 85%;
+    margin-top: -200px;
+    cursor: pointer;
+}
+.top-arrow:hover{
+    color: #ff3333;
+}
+.material-icons.big{
+    font-size: 7em !important;
+}
+
+
 
