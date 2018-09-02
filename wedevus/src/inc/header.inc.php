@@ -8,7 +8,7 @@
             <span> <i class="material-icons menu">menu</i> </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav justify-content-end ">
+            <ul class="nav navbar-nav justify-content-end flex-row justify-content-center-mobile">
                 <li class="nav-item nav-content">
                     <a class="nav-link nav-content" href="#"><i class="material-icons icb">home</i> Acceuil <span class="sr-only">(current)</span></a>
                 </li>

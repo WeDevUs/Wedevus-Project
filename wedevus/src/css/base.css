@@ -27,12 +27,6 @@ nav, li, header, ul{
     background: rgba(0,0,0,0) !important;
 }
 
-
-nav{
-    padding: 0;
-    margin-bottom: 5px;
-
-}
 ul{
     width: 100% !important;
     height: 100% !important;
@@ -54,6 +48,24 @@ a.nav-content{
     display: inline-block !important;
     text-align: center !important;
     font-family: 'Josefin Sans', sans-serif;
+    padding: 3%;
+
+
+}
+.btns
+{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ff3333;
+    border-width: 3px;
+    text-align: center !important;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 80px !important;
+    color: #ff3333 !important;
+    display: inline-block !important;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -67,13 +79,18 @@ a.nav-content{
 }
 
 a.nav-content:hover {
-    color: rgba(94, 77, 87, 1) !important;
+    opacity: 0.7;
 
 }
 
 li{
     width: 10%;
     height: 100%;
+}
+.pt{
+    font-size: 2em;
+    margin-top: -100px !important;
+    margin-left: 400px !important;
 }
 @media screen and (min-width: 1600px) and (max-width: 9000px){
     a.nav-content{
@@ -88,6 +105,11 @@ li{
         font-size: 3.5em;
         margin-top: -140px;
         margin-left: 150px;
+    }
+    .pt{
+        font-size: 3.5em;
+        margin-top: -100px !important;
+        margin-left: 400px !important;
     }
     .point-fort{
         font-size: 3em;
@@ -109,6 +131,11 @@ li{
         font-size: 2.7em;
         margin-top: -140px;
         margin-left: 140px;
+    }
+    .pt{
+        font-size: 2.7em;
+        margin-top: -100px !important;
+        margin-left: 400px !important;
     }
     .point-fort{
         font-size: 2.5em;
@@ -132,6 +159,11 @@ li{
         margin-left: 125px;
 
     }
+    .pt{
+        font-size: 2em;
+        margin-top: -50px !important;
+        margin-left: 50px !important;
+    }
     .point-fort{
         font-size: 1em;
     }
@@ -146,9 +178,79 @@ li{
         max-height: 150px !important;
     }
 }
-@media screen and (min-width: 0px) and (max-width:1250px) {
+@media screen and (min-width:0px) and (max-width:1200px){
     li{
         width: unset;
+    }
+}
+@media screen  and (min-width: 601px){
+    .mobile-main-visible
+    {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:600px) {
+    li{
+        width: unset;
+    }
+    .navbar-brand ,.menu{
+        font-size: 1em !important;
+    }
+    .nav-content{
+        font-size: 0.7em;
+    }
+    i.icb{
+        font-size: 0.8em!important;
+    }
+    .navbar-brand img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .titre{
+        font-size: 0.5em !important;
+    }
+    .point-fort{
+        font-size: 0.5em;
+    }
+    .points-fort{
+        font-size: 0.3em!important;
+        margin: 5% !important;
+        max-width: 50% !important;
+
+    }
+    .points-fort.small{
+        font-size: 0.4em!important;
+        height: auto !important;
+        width: 50% !important;
+    }
+    .mobile-main{
+        display: none;
+    }
+    .mobile-main-visible{
+        visibility: visible !important;
+
+    }
+    #particles-js{
+        height: 50% !important;
+    }
+    .profil-box{
+        font-size: 0.8em !important;
+
+    }
+    #copyright{
+        font-size: 0.3em !important;
+    }
+    #wedevus{
+        font-size: 0.5em!important;
+    }
+    .top-arrow{
+        margin-top: -20% !important;
+        margin-left: 70% !important;
+        font-size: small !important;
+    }
+    .justify-content-center
+    {
+        align-content: center !important;
     }
 
 }
@@ -161,6 +263,7 @@ li{
     -ms-user-select: none;
 
 }
+
 .navbar-toggler-icon{
     color: #2e3133 !important;
     display: block;
@@ -170,4 +273,10 @@ li{
 }
 .grey-bg{
     background-color: #5b5b5b !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 3px !important;
+    padding-right: 3px!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

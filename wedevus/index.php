@@ -1,11 +1,12 @@
 <html lang="en">
 <head>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="src/css/base.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
-    <link href="src/css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="src/css/style.css" rel="stylesheet" type="text/css">
+    <link href="src/css/base.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title></title>
 </head>
@@ -21,9 +22,14 @@ include('./src/inc/header.inc.php');
         <div> <p class="point-fort">Nos points forts :</p> <div class=" d-flex flex-row">
             <div class="p-2 points-fort"> <div><i class="material-icons picon">timer</i><p>Rapidité</p> </div> <p class="pdesc"> Commande prise en charge sous un délais de 48h.</p> </div>
             <div class="p-2 points-fort small"> <div><i class="material-icons picon">check_circle</i><p>Efficacité</p> </div> <p class="pdesc"> Nous nous engageons à développer des produits performants qu'elle que soit la demande. </p> </div>
-            <div class="p-2 points-fort small"> <div><i class="material-icons picon">polymer</i><p>Diversité</p> </div> <p class="pdesc"> Nous disposons d'un large panel de services a votre entière disposition. </p> </div>
-            <div class="p-2 points-fort"> <div><i class="material-icons picon">contact_support</i><p>Suivi</p> </div> <p class="pdesc"> Un support à votre écoute en cas de problème, ainsi qu'un SAV en cas de disfonctionnement. </p> </div>
+
+            <div class="p-2 points-fort small mobile-main"> <div><i class="material-icons picon">polymer</i><p>Diversité</p> </div> <p class="pdesc"> Nous disposons d'un large panel de services a votre entière disposition. </p> </div>
+            <div class="p-2 points-fort mobile-main"> <div><i class="material-icons picon">contact_support</i><p>Suivi</p> </div> <p class="pdesc"> Un support à votre écoute en cas de problème, ainsi qu'un SAV en cas de disfonctionnement. </p> </div>
         </div>
+            <div class="mobile-main-visible d-flex flex-row">
+                <div class="p-2 points-fort small"><div><i class="material-icons picon">contact_support</i><p>Suivi</p> </div> <p class="pdesc"> Un support à votre écoute en cas de problème, ainsi qu'un SAV en cas de disfonctionnement. </p> </div>
+                <div class="p-2 points-fort"> <div><i class="material-icons picon">polymer</i><p>Diversité</p> </div> <p class="pdesc"> Nous disposons d'un large panel de services a votre entière disposition. </p> </div>
+            </div>
         </div> </div>
     <div> <img src="./src/media/img/devider.png" draggable="false" class="devider ddown" > </div>
 </div>

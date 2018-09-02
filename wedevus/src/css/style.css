@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 .devider{
     position: relative;
@@ -31,24 +32,6 @@
 }
 .ddown{
     transform: rotate(180deg);
-}
-
-.btns
-{
-    text-decoration: none;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #ff3333;
-    border-width: 3px;
-    text-align: center !important;
-    transition: all 0.5s;
-    cursor: pointer;
-    width: 100px !important;
-    color: #ff3333 !important;
-    display: inline-block !important;
-    font-family: 'Josefin Sans', sans-serif;
-
-
 }
 
 .titre{
@@ -136,7 +119,7 @@ canvas{
 }
 #wedevus{
     color: white;
-    margin-left: 5px;
+    margin: 12px ;
     font-size: 2em;
     font-family: 'Righteous', cursive;
 
@@ -144,11 +127,11 @@ canvas{
 .top-arrow{
     position: absolute!important;
     color: white;
-    float: right !important;
     margin-left: 85%;
-    margin-top: -200px;
+    margin-top: -10%;
     cursor: pointer;
     border:none;
+    z-index: 100;
 }
 .top-arrow:hover{
     color: #ff3333;
@@ -156,6 +139,12 @@ canvas{
 .material-icons.big{
     font-size: 7em !important;
 }
-
+.contact{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 25px;
+    color: #ff3333;
+    text-decoration: #5b5b5b underline;
+}
 
 
