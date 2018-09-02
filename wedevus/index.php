@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -12,33 +11,9 @@
 </head>
 <body>
 <div class="loader"></div>
-<div id="particles-js"></div>
-<header>
-
-    <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#"> <img src="./src/media/img/wwedevus.png" width="90px" height="90px"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span> <i class="material-icons menu">menu</i> </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav justify-content-end ">
-                <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#"><i class="material-icons icb">home</i> Acceuil <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#"> <i class="material-icons icb">cloud</i> Services</a>
-                </li>
-                <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#" > <i class="material-icons icb">perm_phone_msg</i>Contact</a>
-                </li>
-                <li class="nav-item nav-content ">
-                    <a class="nav-link btns" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-</header>
+<?php
+include('./src/inc/header.inc.php');
+?>
 <main>
 <div> <!---Presentation--->
     <div> <img src="./src/media/img/devider.png" draggable="false" class="devider"></div>
@@ -65,17 +40,7 @@
 </div></div>
 </main>
 
-<footer> <div><img src="./src/media/img/gdevider.png"  draggable="false" class="devider"></div>
-    <a href="#" onclick="" class="top-arrow"><i class="material-icons big">keyboard_arrow_up</i></a>
-    <div class="block grey-bg">
-
-        <div class="d-flex flex-row justify-content-between">
-        <div class="d-flex flex-row"><div class="p-2"> <p id="wedevus" >Wedevus</p> </div> </div>
-        <div class="d-flex flex-row "><div class="p-2"><p id="copyright">Tous droits réservés à Wedevus | Copyright © </p> </div></div>
-        </div>
-
-    </div>
-</footer>
+<?php include('./src/inc/footer.inc.php'); ?>
 
 
 
