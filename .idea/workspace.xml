@@ -108,7 +108,7 @@
       <path value="$PROJECT_DIR$/../../php-7.2.4-nts-Win32-VC15-x64" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="-15" />
     <option name="width" value="1340" />
