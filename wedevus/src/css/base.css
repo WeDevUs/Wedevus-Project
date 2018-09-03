@@ -89,9 +89,13 @@ li{
 }
 .pt{
     font-size: 2em;
-    margin-top: -20%;
-    margin-left: 50%;
+    margin-top: -10%;
+    margin-left: 40%;
 
+}
+.titre{
+    margin-top: -10%;
+    margin-left: 20%;
 }
 .mobile-main-visible{
     display: none !important;
@@ -108,8 +112,7 @@ li{
 
     .titre{
         font-size: 3.5em;
-        margin-top: -140px;
-        margin-left: 150px;
+
     }
     .pt{
         font-size: 3.5em;
@@ -160,8 +163,7 @@ li{
 
     .titre{
         font-size: 2em;
-        margin-top: -90px;
-        margin-left: 125px;
+
 
     }
     .pt{
@@ -188,7 +190,7 @@ li{
         width: unset;
     }
 }
-@media screen  and (min-width: 7501px){
+@media screen  and (min-width: 751px){
     .mobile-main-visible
     {
         display: none !important;
@@ -238,7 +240,7 @@ li{
 
     }
     .mobile-main-visible{
-        visibility: visible !important;
+        display: flex !important;
 
     }
     #particles-js{
