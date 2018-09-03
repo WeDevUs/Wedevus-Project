@@ -224,7 +224,8 @@ li{
         width: 50% !important;
     }
     .mobile-main{
-        display: none;
+        display: none !important;
+
     }
     .mobile-main-visible{
         visibility: visible !important;

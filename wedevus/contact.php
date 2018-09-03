@@ -18,7 +18,7 @@ include('./src/inc/header.inc.php');
     <div><img src="./src/media/img/wdevider.png" class="devider ddown"></div>
     <div class="block bg-white">
         <div class="d-flex flex-row "> <p class="contact p-2">Contacts:</p> </div>
-        <div class="d-flex flex-column justify-content-start"> <p>Discord</p> <p>Téléphone</p> <p>Mail</p> </div>
+        <div class="d-flex flex-column justify-content-start"> <p class="contact-content">Discord</p> <p class="contact-content"><i class="material-icons">phone</i>Téléphone</p> <p class="contact-content"><i class="material-icons">mail</i>Mail</p> </div>
 
     </div>
         <div><img src="./src/media/img/wdevider.png" class="devider"></div>
