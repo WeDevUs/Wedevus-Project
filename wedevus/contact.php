@@ -1,5 +1,11 @@
-<html lang="en">
+<html lang="fr">
 <head>
+    <!-- <script type="text/javascript">
+
+        document.oncontextmenu = new Function("return false");
+
+    </script> -->
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="src/css/base.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
@@ -15,14 +21,19 @@
 include('./src/inc/header.inc.php');
 ?>
 <main>
-    <div><img src="./src/media/img/wdevider.png" class="devider ddown"></div>
-    <div class="block bg-white">
-        <div class="d-flex flex-row "> <p class="contact p-2">Contacts:</p> </div>
-        <div class="d-flex flex-column justify-content-start"> <p class="contact-content">Discord</p> <p class="contact-content"><i class="material-icons">phone</i>twitter</p> <p class="contact-content"><i class="material-icons">mail</i>Mail</p> </div>
+    <div><img src="./src/media/img/devider.png" class="devider "></div>
+    <div class="block">
+        <div class="d-flex flex-row  justify-content-center"> <p class="contact p-2">Contacts</p> </div>
+        <div class="d-flex flex-row justify-content-center ">
+
+            <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="#" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
+            <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="#" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
+            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contacter nous par mail</p></a> </div>
+
+        </div>
 
     </div>
-        <div><img src="./src/media/img/wdevider.png" class="devider"></div>
-
+    <div><img src="./src/media/img/devider.png" class="devider ddown"> <p id="answer"></p></div>
 
 </main>
 

@@ -90,7 +90,7 @@ li{
 .pt{
     font-size: 2em;
     margin-top: -10%;
-    margin-left: 40%;
+    margin-left: 35%;
 
 }
 .titre{
@@ -117,7 +117,7 @@ li{
     .pt{
         font-size: 3.5em;
         margin-top: -20%;
-        margin-left: 50%;
+        margin-left: 40%;
     }
     .point-fort{
         font-size: 3em;
@@ -143,7 +143,7 @@ li{
     .pt{
         font-size: 2.7em;
         margin-top: -10%;
-        margin-left: 40%;
+        margin-left: 38%;
     }
     .point-fort{
         font-size: 2.5em;
@@ -261,7 +261,7 @@ li{
         margin-left: 80% !important;
         font-size: small !important;
     }
-    .justify-content-center
+    .justify-content-center-mobile
     {
         align-content: center !important;
     }

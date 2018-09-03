@@ -26,6 +26,7 @@
     border: none;
 
 
+
 }
 .partenaire{
     background-color: #ffffff!important;
@@ -101,12 +102,7 @@ canvas{
     max-width: 50%;
     max-height: 50%;
 }
-.profil-box{
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 1.5em;
 
-}
 #copyright{
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
@@ -140,8 +136,39 @@ canvas{
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     margin: 25px;
-    color: #ff3333;
-    text-decoration: #5b5b5b underline;
+    color: #ffffff;
+    text-decoration: rgba(255, 145, 156, 0.59) underline;
+}
+.profil-box {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+.com-logo{
+    max-width: 33%;
+    height: 50%;
+    justify-content: end;
+}
+.contact-content{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin: 25px;
+    color: rgba(255, 145, 156, 0.59);
+
+}
+.contact-box{
+    text-align: center;
+    font-size: 1.5em;
+
+
+}
+.con-btn{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 15px;
+
+}
+a.con-btn:hover{
+    text-decoration: none!important;
 }
 
 
