@@ -201,7 +201,7 @@ li{
         width: unset;
     }
     .pt{
-        font-size: 0.5em !important;
+        font-size: 1em !important;
         margin-top: -10%;
         margin-left: 40%;
     }
@@ -219,7 +219,7 @@ li{
         height: 20px !important;
     }
     .titre{
-        font-size: 0.5em !important;
+        font-size: 1em !important;
     }
     .point-fort{
         font-size: 0.5em;
@@ -258,7 +258,7 @@ li{
     }
     .top-arrow{
         margin-top: -20% !important;
-        margin-left: 70% !important;
+        margin-left: 80% !important;
         font-size: small !important;
     }
     .justify-content-center
