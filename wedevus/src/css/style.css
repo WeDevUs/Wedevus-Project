@@ -91,10 +91,7 @@
     background-repeat: no-repeat;
     position: absolute;
 }
-.pt{
-    margin-top: -140px;
-    margin-left: 500px;
-}
+
 canvas{
     display:block;
     vertical-align:bottom;

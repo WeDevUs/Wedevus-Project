@@ -89,8 +89,13 @@ li{
 }
 .pt{
     font-size: 2em;
-    margin-top: -100px !important;
-    margin-left: 400px !important;
+    margin-top: -20%;
+    margin-left: 50%;
+
+}
+.mobile-main-visible{
+    display: none !important;
+
 }
 @media screen and (min-width: 1600px) and (max-width: 9000px){
     a.nav-content{
@@ -108,8 +113,8 @@ li{
     }
     .pt{
         font-size: 3.5em;
-        margin-top: -100px !important;
-        margin-left: 400px !important;
+        margin-top: -20%;
+        margin-left: 50%;
     }
     .point-fort{
         font-size: 3em;
@@ -134,8 +139,8 @@ li{
     }
     .pt{
         font-size: 2.7em;
-        margin-top: -100px !important;
-        margin-left: 400px !important;
+        margin-top: -10%;
+        margin-left: 40%;
     }
     .point-fort{
         font-size: 2.5em;
@@ -161,8 +166,8 @@ li{
     }
     .pt{
         font-size: 2em;
-        margin-top: -50px !important;
-        margin-left: 50px !important;
+        margin-top: -10%;
+        margin-left: 40%;
     }
     .point-fort{
         font-size: 1em;
@@ -183,15 +188,20 @@ li{
         width: unset;
     }
 }
-@media screen  and (min-width: 601px){
+@media screen  and (min-width: 7501px){
     .mobile-main-visible
     {
         display: none !important;
     }
 }
-@media screen and (min-width: 0px) and (max-width:600px) {
+@media screen and (min-width: 0px) and (max-width:750px) {
     li{
         width: unset;
+    }
+    .pt{
+        font-size: 0.5em !important;
+        margin-top: -10%;
+        margin-left: 40%;
     }
     .navbar-brand ,.menu{
         font-size: 1em !important;
