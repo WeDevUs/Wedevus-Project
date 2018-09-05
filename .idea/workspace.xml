@@ -92,7 +92,7 @@
       <find>ti</find>
       <find>tit</find>
       <find>a.</find>
-      <find />
+      <find>a {</find>
       <find>a</find>
       <find>nav</find>
       <find>btns</find>
@@ -239,12 +239,12 @@
       <workItem from="1535817081508" duration="17229000" />
       <workItem from="1535886101477" duration="11431000" />
       <workItem from="1535972723327" duration="9244000" />
-      <workItem from="1536162852768" duration="3090000" />
+      <workItem from="1536162852768" duration="3345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79039000" />
+    <option name="totallyTimeSpent" value="79294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
