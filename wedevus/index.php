@@ -31,7 +31,7 @@ include('./src/inc/header.inc.php');
                 <div class="p-2 points-fort"> <div><i class="material-icons picon">polymer</i><p>Diversité</p> </div> <p class="pdesc"> Nous disposons d'un large panel de services a votre entière disposition. </p> </div>
             </div>
         </div> </div>
-    <div> <img src="./src/media/img/devider.png" draggable="false" class="devider ddown" > </div>
+    <div> <img src="./src/media/img/devider.png" draggable="false" class="devider ddown bg-white" > </div>
 </div>
 
 <div> <div class="block partenaire">
@@ -44,6 +44,7 @@ include('./src/inc/header.inc.php');
     </div>
 
 </div></div>
+
 </main>
 
 <?php include('./src/inc/footer.inc.php'); ?>

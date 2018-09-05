@@ -101,6 +101,21 @@ li{
     display: none !important;
 
 }
+.contact-main{
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.contact-main-mobile{
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+
+}
 @media screen and (min-width: 1600px) and (max-width: 9000px){
     a.nav-content{
         font-size: 1.7em !important;
@@ -195,10 +210,20 @@ li{
     {
         display: none !important;
     }
+    .contact-main-mobile{
+        display: none !important;
+    }
 }
 @media screen and (min-width: 0px) and (max-width:750px) {
     li{
         width: unset;
+    }
+    .contact-main-mobile{
+        display: -ms-flexbox !important;
+        display: flex!important;
+    }
+    .contact-main{
+        display: none !important;
     }
     .pt{
         font-size: 1em !important;
@@ -266,6 +291,7 @@ li{
         align-content: center !important;
     }
 
+
 }
 .material-icons{
     user-select: none;
@@ -293,3 +319,4 @@ li{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+

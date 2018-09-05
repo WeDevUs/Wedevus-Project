@@ -10,13 +10,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav justify-content-end flex-row justify-content-center-mobile">
                 <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#"><i class="material-icons icb">home</i> Acceuil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-content" href="https://wedevus.com/index.php"><i class="material-icons icb">home</i> Acceuil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item nav-content">
                     <a class="nav-link nav-content" href="#"> <i class="material-icons icb">cloud</i> Services</a>
                 </li>
                 <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#" > <i class="material-icons icb">perm_phone_msg</i>Contact</a>
+                    <a class="nav-link nav-content" href="https://wedevus.com/contact.php" > <i class="material-icons icb">perm_phone_msg</i>Contact</a>
                 </li>
                 <li class="nav-item nav-content ">
                     <a class="nav-link btns" href="#">Login</a>
