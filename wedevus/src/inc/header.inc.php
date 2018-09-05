@@ -19,7 +19,7 @@
                     <a class="nav-link nav-content" href="https://wedevus.com/contact.php" > <i class="material-icons icb">perm_phone_msg</i>Contact</a>
                 </li>
                 <li class="nav-item nav-content ">
-                    <a class="nav-link btns" href="#">Login</a> 
+                    <a class="nav-link btns" href="#">Login</a>
                 </li>
             </ul>
         </div>
