@@ -24,14 +24,14 @@ include('./src/inc/header.inc.php');
 
             <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
             <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contacter nous par mail</p></a> </div>
+            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contactez nous par mail</p></a> </div>
 
         </div>
         <div class="contact-main-mobile">
 
             <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
             <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contacter nous par mail</p></a> </div>
+            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contactez nous par mail</p></a> </div>
 
         </div>
 
