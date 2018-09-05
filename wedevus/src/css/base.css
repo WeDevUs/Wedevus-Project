@@ -93,7 +93,7 @@ li{
     font-size: 2em;
     margin-top: -10%;
     margin-left: 35%;
-
+    z-index: 99;
 }
 .titre{
     margin-top: -10%;
