@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
-
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">

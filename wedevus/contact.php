@@ -1,11 +1,7 @@
 <html lang="fr">
 <head>
-    <!-- <script type="text/javascript">
-
-        document.oncontextmenu = new Function("return false");
-
-    </script> -->
-
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="src/css/base.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
