@@ -19,7 +19,7 @@
 include('./src/inc/header.inc.php');
 ?>
 <main>
-<div> <!---Presentation--->
+<div > <!---Presentation--->
     <div> <img src="./src/media/img/devider.png" draggable="false" class="devider"></div>
     <div class="block"> <p class="titre">Wedevus - Services de développement sur commande.</p>
         <div> <p class="point-fort">Nos points forts :</p> <div class=" d-flex flex-row">

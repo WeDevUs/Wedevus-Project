@@ -5,12 +5,18 @@ html {
 
 
 }
+
 *{
     outline: 0;
 }
 header{
     margin: 0;
     padding: 0;
+}
+footer{
+    bottom:0;
+    right: 0;
+    left: 0;
 }
 main{
     background: rgba(0,0,0,0);
@@ -37,8 +43,8 @@ ul{
     background: url('../media/img/2.gif')50% 50% no-repeat #ffffff;
     position : fixed;
     z-index: 9999;
-    top : 0px;
-    left : 0px;
+    top : 0;
+    left : 0;
     height : 100%;
     width : 100%;
     cursor : wait;
@@ -310,6 +316,9 @@ li{
 }
 .grey{
     color: #2e3133 !important;
+}
+.red-bg{
+    background-color: #ff3333;
 }
 .grey-bg{
     background-color: #5b5b5b !important;
