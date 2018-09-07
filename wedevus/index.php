@@ -1,5 +1,7 @@
 <html lang="en">
 <head>
+    <meta name="viewport" content"width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -8,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="src/css/style.css" rel="stylesheet" type="text/css">
     <link href="src/css/base.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8" name="viewport" content"width=device-width, initial-scale=1.0">
 
     <title></title>
 </head>
