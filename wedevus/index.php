@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="src/css/style.css" rel="stylesheet" type="text/css">
     <link href="src/css/base.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content"width=device-width, initial-scale=1.0">
+
     <title></title>
 </head>
 <body>
@@ -39,7 +40,7 @@ include('./src/inc/header.inc.php');
     <div><p class="pt titre grey">Nos partenaires</p></div>
     <div class="d-flex flex-row profil-box justify-content-center">
         <div class="p-2 profil-box "> <a href="https://discord.gg/Ke6MYdC" draggable="false" style="text-decoration: none" ><img src="./src/media/img/lunazia.png" class="rounded-circle profil-partenaire"> </a>  <p>Lunazia Network</p> </div>
-        <div class="p-2 profil-box"> <a href="#"><img src="./src/media/img/bedevus.png" draggable="false" class="rounded-circle profil-partenaire"> </a> <p>Indisponibe</p> </div>
+        <div class="p-2 profil-box"> <a href="#"><img src="./src/media/img/bedevus.png" draggable="false" class="rounded-circle profil-partenaire"> </a> <p>Indisponible</p> </div>
 
 
     </div>

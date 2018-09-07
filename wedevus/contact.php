@@ -8,7 +8,7 @@
     <link href="src/css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"  name="viewport" content"width=device-width, initial-scale=1.0">
     <title></title>
 </head>
 <body>
@@ -24,7 +24,7 @@ include('./src/inc/header.inc.php');
 
             <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
             <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contactez nous par mail</p></a> </div>
+            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a style="text-decoration: none;"><p class="contact-content con-btn">wedevus@gmail.com</p></a> </div>
 
         </div>
         <div class="contact-main-mobile">

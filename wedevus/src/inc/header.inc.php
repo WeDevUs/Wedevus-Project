@@ -3,7 +3,7 @@
 <header>
 
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#"> <img src="./src/media/img/wwedevus.png" width="90px" height="90px"> </a>
+        <a class="navbar-brand" href="https://wedevus.com"> <img src="./src/media/img/wwedevus.png" width="90px" height="90px"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span> <i class="material-icons menu">menu</i> </span>
         </button>
