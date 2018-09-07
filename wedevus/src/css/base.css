@@ -13,11 +13,7 @@ header{
     margin: 0;
     padding: 0;
 }
-footer{
-    bottom:0;
-    right: 0;
-    left: 0;
-}
+
 main{
     background: rgba(0,0,0,0);
 }

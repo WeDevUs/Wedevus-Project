@@ -16,7 +16,8 @@
     -ms-user-select: none;
     pointer-events: none;
     z-index: 90;
-    max-height: 300px;
+    max-height: 400px;
+    width: 100%;
 
 }
 .block{
