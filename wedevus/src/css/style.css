@@ -16,7 +16,7 @@
     -ms-user-select: none;
     pointer-events: none;
     z-index: 90;
-    max-height: 400px;
+    max-height: 300px;
     width: 100%;
 
 }
@@ -86,19 +86,8 @@
     max-width: 15%;
     box-shadow: gray 1px 1px 15px;
 }
-#particles-js{
-    width: 100%;
-    background-color: #ffffff;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    position: absolute;
-}
 
-canvas{
-    display:block;
-    vertical-align:bottom;
-}
+
 .profil-partenaire{
     margin: 30px;
     max-width: 50%;
@@ -125,7 +114,6 @@ canvas{
     margin-left: 85%;
     margin-top: -10%;
     cursor: pointer;
-    border:none;
     z-index: 100;
 }
 .top-arrow:hover{
@@ -134,11 +122,14 @@ canvas{
 .material-icons.big{
     font-size: 7em !important;
 }
-.contact{
+.category{
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     margin: 25px;
     color: #ffffff;
+    text-align: center;
+}
+#contact{
     text-decoration: rgba(255, 145, 156, 0.59) underline;
 }
 .profil-box {
@@ -147,7 +138,7 @@ canvas{
     font-size: 1.5em;
 }
 .com-logo{
-    max-width: 33%;
+    max-width: 60%;
     height: 50%;
     justify-content: end;
 }
@@ -156,18 +147,15 @@ canvas{
     font-size: 1.5em;
     margin: 25px;
     color: rgba(255, 145, 156, 0.59);
-
 }
 .contact-box{
     text-align: center;
     font-size: 1.5em;
-
-
 }
 .con-btn{
     background-color: rgba(255,255,255,0.1);
     border-radius: 15px;
-
+    text-align: center;
 }
 a.con-btn:hover{
     text-decoration: none!important;
@@ -180,6 +168,39 @@ a.con-btn:hover{
     transform: rotate(-11.8deg);
     font-size: 2.4em;
     z-index: 99;
+}
+.h-bar{
+    width: 80%;
+    border: white 1px solid;
+    margin: 0 10% 1% 10%;
+
+}
+
+.service-title{
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+}
+.service-desc{
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+.com-btn{
+    text-align: center;
+    background-color: rgba(255, 0, 11, 0.4);
+    border-radius: 15px;
+    font-size: 1.2em;
+    background-size: 80%;
+
+}
+.btn-center{
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.spacer{
+    margin-bottom: 5%;
 }
 
 

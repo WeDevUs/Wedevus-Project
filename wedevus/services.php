@@ -20,6 +20,36 @@ include('./src/inc/header.inc.php');
 ?>
 <main>
 
+    <div><img src="./src/media/img/devider.png" class="devider "></div>
+    <div class="block">
+        <div class="d-flex flex-column justify-content-center">
+            <p class="category">Bots Discord</p>
+            <div class="h-bar"></div>
+            <div class="d-flex">
+                <div class="col-sm-4 services"><p class="service-title">Simple (JS)</p><p class="service-desc">Description en création</p><a href="#" ><p class="com-btn">Commander: 2.50€</p></a></div>
+                <div class="col-sm-4 services"><p class="service-title">Intermédiaire (JS)</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: 5€</p></a></div>
+                <div class="col-sm-4 services"><p class="service-title">Sur Demande (JS + API)</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: 5€</p></a></div>
+             </div>
+            <div class="spacer"></div>
+            <p class="category">Web</p>
+            <div class="h-bar"></div>
+            <div class="d-flex">
+                <div class="col-sm-4 services"><p class="service-title">Page Vitrine sur mesure (HTML/CSS)</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: Á partir 4€</p></a></div>
+                <div class="col-sm-4 services"><p class="service-title">Site Vitrine sur mesure (HTML/CSS)</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: Á partir 10€</p></a></div>
+                <div class="col-sm-4 services"><p class="service-title">Site Complexe sur mesure (HTML/CSS/PHP)</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: Á partir 25€ </p></a></div>
+            </div>
+            <div class="spacer"></div>
+            <p class="category">Autres</p>
+            <div class="h-bar"></div>
+            <div class="d-flex ">
+                <div class="col-sm-12 services justify-content-center"><p class="service-title">Dessin sur demande</p><p class="service-desc">Logo, Bannière, Background, Portrait ...</p><a href="#"><p class="com-btn btn-center">Commander: Á partir 2.50€</p></a></div>
+               <!-- <div class="col-sm-4 services"><p class="service-title">Bot Discord</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: 5€</p></a></div>
+                <div class="col-sm-4 services"><p class="service-title">Bot Discord</p><p class="service-desc">Description en création</p><a href="#"><p class="com-btn">Commander: 5€</p></a></div> --->
+            </div><br>
+
+     </div>
+    </div>
+    <div><img src="./src/media/img/devider.png" class="devider ddown "> <p id="answer" >Nous garantissons la qualité de nos produits, ils sont créés sur votre demande.</p></div>
 
 
 </main>

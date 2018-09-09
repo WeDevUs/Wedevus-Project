@@ -20,24 +20,24 @@ include('./src/inc/header.inc.php');
 <main>
     <div><img src="./src/media/img/devider.png" class="devider "></div>
     <div class="block">
-        <div class="d-flex flex-row  justify-content-center"> <p class="contact p-2">Contacts</p> </div>
+        <div class="d-flex flex-row  justify-content-center"> <p id="contact" class="category p-2">Contacts</p> </div>
         <div class="contact-main">
 
-            <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a style="text-decoration: none;"><p class="contact-content con-btn">wedevus@gmail.com</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/mail.png" class="com-logo" > <a style="text-decoration: none;"><p class="contact-content con-btn">wedevus@gmail.com</p></a> </div>
 
         </div>
         <div class="contact-main-mobile">
 
-            <div class="contact-box"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
-            <div class="contact-box"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contactez nous par mail</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/reddiscord.png" class="com-logo"><a href="https://discord.gg/Sp9v5sv" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre sur Discord</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/twitterlogo.png" class="com-logo" ><a href="https://twitter.com/wedevus" style="text-decoration: none;"> <p class="contact-content con-btn">Nous rejoindre Twitter</p></a> </div>
+            <div class="contact-box col-sm-4"> <img src="./src/media/img/mail.png" class="com-logo" > <a href="#" style="text-decoration: none;"><p class="contact-content con-btn">Contactez nous par mail</p></a> </div>
 
         </div>
 
     </div>
-    <div><img src="./src/media/img/devider.png" class="devider ddown bg-white"> <p id="answer">Notre support vous contactera dans les 48h suivant votre demande.</p> </div>
+    <div><img src="./src/media/img/devider.png" class="devider ddown "> <p id="answer" >Notre support vous contactera dans les 48h suivant votre demande.</p> </div>
 
 </main>
 

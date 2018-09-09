@@ -1,4 +1,4 @@
-<footer> <div><img src="./src/media/img/gdevider.png"  draggable="false" class="devider bg-white"></div>
+<footer> <div><img src="./src/media/img/gdevider.png"  draggable="false" class="devider "></div>
     <a href="#" onclick="" class="top-arrow"><i class="material-icons big">keyboard_arrow_up</i></a>
     <div class="block grey-bg">
 

@@ -13,7 +13,7 @@
                     <a class="nav-link nav-content" href="https://wedevus.com/index.php"><i class="material-icons icb">home</i> Acceuil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item nav-content">
-                    <a class="nav-link nav-content" href="#"> <i class="material-icons icb">cloud</i> Services</a>
+                    <a class="nav-link nav-content" href="https://wedevus.com/services.php"> <i class="material-icons icb">cloud</i> Services</a>
                 </li>
                 <li class="nav-item nav-content">
                     <a class="nav-link nav-content" href="https://wedevus.com/contact.php" > <i class="material-icons icb">perm_phone_msg</i>Contact</a>

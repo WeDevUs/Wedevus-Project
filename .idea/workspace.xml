@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a87b45f-6019-48ce-b30a-fe2eaa4ec847" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedevus/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedevus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedevus/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wedevus/src/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/src/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wedevus/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedevus/src/inc/footer.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/src/inc/footer.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wedevus/src/inc/header.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/wedevus/src/inc/header.inc.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wedevus/index.php">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wedevus/src/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="-4667">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wedevus/src/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -26,8 +41,8 @@
       <file leaf-file-name="header.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedevus/src/inc/header.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -36,16 +51,7 @@
         <entry file="file://$PROJECT_DIR$/wedevus/src/inc/footer.inc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wedevus/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <caret lean-forward="true" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -53,29 +59,8 @@
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedevus/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wedevus/src/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wedevus/src/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="283" column="10" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -83,8 +68,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedevus/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="-286">
+              <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -111,10 +96,14 @@
       <find>pt</find>
       <find>answ</find>
       <find>particle</find>
-      <find>part</find>
       <find>nav</find>
       <find>navbar</find>
       <find>dev</find>
+      <find>&lt;a hre</find>
+      <find>&lt;a href=&quot;#&quot;&gt;&lt;p&gt;P</find>
+      <find>5€</find>
+      <find>lore</find>
+      <find>part</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,12 +116,12 @@
         <option value="$PROJECT_DIR$/wedevus/index.html" />
         <option value="$PROJECT_DIR$/wedevus/src/js/style.js" />
         <option value="$PROJECT_DIR$/wedevus/src/inc/header.inc" />
-        <option value="$PROJECT_DIR$/wedevus/src/inc/header.inc.php" />
-        <option value="$PROJECT_DIR$/wedevus/contact.php" />
-        <option value="$PROJECT_DIR$/wedevus/services.php" />
-        <option value="$PROJECT_DIR$/wedevus/index.php" />
-        <option value="$PROJECT_DIR$/wedevus/src/inc/footer.inc.php" />
         <option value="$PROJECT_DIR$/wedevus/src/css/base.css" />
+        <option value="$PROJECT_DIR$/wedevus/src/inc/footer.inc.php" />
+        <option value="$PROJECT_DIR$/wedevus/services.php" />
+        <option value="$PROJECT_DIR$/wedevus/src/inc/header.inc.php" />
+        <option value="$PROJECT_DIR$/wedevus/index.php" />
+        <option value="$PROJECT_DIR$/wedevus/contact.php" />
         <option value="$PROJECT_DIR$/wedevus/src/css/style.css" />
       </list>
     </option>
@@ -168,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,7 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,11 +249,12 @@
       <workItem from="1535972723327" duration="9244000" />
       <workItem from="1536162852768" duration="7730000" />
       <workItem from="1536348350723" duration="7666000" />
+      <workItem from="1536496353241" duration="13722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91345000" />
+    <option name="totallyTimeSpent" value="105067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -276,7 +266,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3290938" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18970588" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
@@ -305,6 +295,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wedevus/src/inc/footer.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/src/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4811">
+          <caret line="283" column="10" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wedevus/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -330,9 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="180" selection-start-line="33" selection-start-column="180" selection-end-line="33" selection-end-column="180" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="96" lean-forward="true" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="102" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,60 +562,57 @@
     <entry file="file://$PROJECT_DIR$/wedevus/src/inc/header.inc" />
     <entry file="file://$PROJECT_DIR$/wedevus/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedevus/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedevus/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="-286">
+          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wedevus/src/inc/footer.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedevus/src/inc/header.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret lean-forward="true" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wedevus/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="52" column="96" selection-start-line="52" selection-start-column="96" selection-end-line="52" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wedevus/src/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="283" column="10" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="10" />
+        <state relative-caret-position="-4667">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/src/inc/header.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedevus/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wedevus/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="258">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
         </state>
       </provider>
     </entry>
